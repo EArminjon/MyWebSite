@@ -10,7 +10,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1fd74fa0-47d3-4764-9228-450361ed01c8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/images/home.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/home.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/layout/styles/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/layout/styles/layout.css" afterDir="false" />
     </list>
@@ -26,44 +25,27 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="77">
-              <caret line="200" column="74" selection-start-line="200" selection-start-column="74" selection-end-line="200" selection-end-column="74" />
+            <state relative-caret-position="223">
+              <caret line="259" column="40" selection-start-line="259" selection-start-column="40" selection-end-line="259" selection-end-column="40" />
               <folding>
                 <element signature="e#362#425#0" expanded="true" />
+                <element signature="e#6367#6430#0" expanded="true" />
+                <element signature="e#14008#14071#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="epitech.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/epitech.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file leaf-file-name="github.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/github.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file leaf-file-name="linke_in.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/linke_in.png">
+      <file leaf-file-name="04.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images/demo/backgrounds/04.png">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file leaf-file-name="layout.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/layout/styles/layout.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="286" column="62" selection-start-line="286" selection-start-column="62" selection-end-line="286" selection-end-column="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fontawesome-4.6.3.min.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/layout/styles/fontawesome-4.6.3.min.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="3" column="3929" selection-start-line="3" selection-start-column="3929" selection-end-line="3" selection-end-column="3929" />
+            <state relative-caret-position="179">
+              <caret line="252" column="56" selection-start-line="252" selection-start-column="56" selection-end-line="252" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -76,6 +58,8 @@
       <find>nospace group services</find>
       <find>fidesio</find>
       <find>linke</find>
+      <find>proge</find>
+      <find>diver</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -182,12 +166,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1530111836081</updated>
-      <workItem from="1530111837328" duration="3092000" />
+      <workItem from="1530111837328" duration="4965000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3092000" />
+    <option name="totallyTimeSpent" value="4965000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1032" extended-state="6" />
@@ -235,12 +219,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/layout/styles/layout.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="286" column="62" selection-start-line="286" selection-start-column="62" selection-end-line="286" selection-end-column="62" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/images/epitech.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/images/linke_in.png">
       <provider selected="true" editor-type-id="images" />
@@ -248,15 +228,24 @@
     <entry file="file://$PROJECT_DIR$/images/github.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/epitech.png">
+    <entry file="file://$PROJECT_DIR$/layout/styles/layout.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="252" column="56" selection-start-line="252" selection-start-column="56" selection-end-line="252" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/demo/backgrounds/04.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="200" column="74" selection-start-line="200" selection-start-column="74" selection-end-line="200" selection-end-column="74" />
+        <state relative-caret-position="223">
+          <caret line="259" column="40" selection-start-line="259" selection-start-column="40" selection-end-line="259" selection-end-column="40" />
           <folding>
             <element signature="e#362#425#0" expanded="true" />
+            <element signature="e#6367#6430#0" expanded="true" />
+            <element signature="e#14008#14071#0" expanded="true" />
           </folding>
         </state>
       </provider>
