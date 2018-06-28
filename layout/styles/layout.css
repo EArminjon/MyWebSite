@@ -230,7 +230,8 @@ td{border-width:0 1px;}
 .gallery{display:block; width:100%; margin-bottom:50px;}
 .gallery figure figcaption{display:block; width:100%; clear:both;}
 .gallery li{margin-bottom:30px;position: relative; text-align: center;}
-.gallery li:hover .myOverlay{opacity: 1;}
+.gallery li:hover .myOverlay{opacity: 1; cursor: pointer;}
+.gallery li img:hover{cursor: pointer;}
 .myOverlay {position: absolute;
     bottom: 0;
     background: rgb(0, 0, 0);
