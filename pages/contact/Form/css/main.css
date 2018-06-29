@@ -44,7 +44,6 @@ body, html {
 /*---------------------------------------------*/
 a {
     font-family: Verdana, Geneva, sans-serif;
-    line-height: 1.7;
     color: #C0AB8F;
     margin: 0px;
     transition: all 0.4s;
@@ -64,6 +63,9 @@ a:hover {
 /*---------------------------------------------*/
 h1, h2, h3, h4, h5, h6 {
     margin: 0px;
+}
+h1 a {
+    font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 p {
@@ -244,7 +246,7 @@ iframe {
 .contact100-form-title {
     display: block;
     width: 100%;
-    font-family: Montserrat-Black;
+    font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 39px;
     color: #333333;
     line-height: 1.2;
