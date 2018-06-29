@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>EArminjon</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link href="../../layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="shortcut icon" href="../../images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="../../images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="Form/vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="Form/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="Form/fonts/iconic/css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" type="text/css" href="Form/vendor/animate/animate.css">
+    <link rel="stylesheet" type="text/css" href="Form/vendor/css-hamburgers/hamburgers.min.css">
+    <link rel="stylesheet" type="text/css" href="Form/vendor/animsition/css/animsition.min.css">
+    <link rel="stylesheet" type="text/css" href="Form/vendor/select2/select2.min.css">
+    <link rel="stylesheet" type="text/css" href="Form/vendor/daterangepicker/daterangepicker.css">
+    <link rel="stylesheet" type="text/css" href="Form/vendor/noui/nouislider.min.css">
+    <link rel="stylesheet" type="text/css" href="Form/css/util.css">
+    <link rel="stylesheet" type="text/css" href="Form/css/main.css">
+</head>
+<body id="top">
+<div w3-include-html="../shared/header.html"></div>
+
+
+<div class="container-contact100">
+    <div class="wrap-contact100">
+        <form class="contact100-form validate-form" method="post" action="https://formspree.io/relaxas.brouillon@gmail.com">
+            <span class="contact100-form-title">Me contacter</span>
+
+            <div class="wrap-input100 validate-input bg1" data-validate="Entrez votre prénom">
+                <span class="label-input100">Prénom *</span>
+                <input class="input100" type="text" name="firstname" placeholder="Entrez votre prénom">
+            </div>
+
+            <div class="wrap-input100 validate-input bg1" data-validate="Entrez votre nom">
+                <span class="label-input100">Nom *</span>
+                <input class="input100" type="text" name="lastname" placeholder="Entrez votre nom">
+            </div>
+
+            <div class="wrap-input100 validate-input bg1 rs1-wrap-input100" data-validate="Enter Your Email (e@a.x)">
+                <span class="label-input100">Email *</span>
+                <input class="input100" type="text" name="email" placeholder="Entrez votre Email">
+            </div>
+
+            <div class="wrap-input100 bg1 rs1-wrap-input100">
+                <span class="label-input100">Téléphone</span>
+                <input class="input100" type="text" name="phone" placeholder="Entrez un téléphone">
+            </div>
+
+            <div class="wrap-input100 input100-select bg1">
+                <span class="label-input100">Service *</span>
+                <div>
+                    <select class="js-select2" name="service">
+                        <option>Choisir un service</option>
+                        <option>Web</option>
+                        <option>Logiciel</option>
+                        <option>Autre (présicez ci dessous)</option>
+                    </select>
+                    <div class="dropDownSelect2"></div>
+                </div>
+            </div>
+
+            <div class="wrap-input100 validate-input bg0 rs1-alert-validate" data-validate="Entrez votre demande">
+                <span class="label-input100">Message</span>
+                <textarea class="input100" name="message" placeholder="Ici..."></textarea>
+            </div>
+
+            <div class="container-contact100-form-btn">
+                <button class="contact100-form-btn">
+                    <span>Envoyer<i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i></span>
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+</div>
+<div w3-include-html="../shared/footer.html"></div>
+<a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>-->
+<script src="../../layout/scripts/jquery.backtotop.js"></script>
+<script src="../../layout/scripts/jquery.mobilemenu.js"></script>
+<script src="../../layout/scripts/includes.js"></script>
+<script>
+    includeHTML();
+</script>
+<!-- JAVASCRIPTS -->
+<script src="Form/vendor/jquery/jquery-3.2.1.min.js"></script>
+<script src="Form/vendor/animsition/js/animsition.min.js"></script>
+<script src="Form/vendor/bootstrap/js/popper.js"></script>
+<script src="Form/vendor/bootstrap/js/bootstrap.min.js"></script>
+<script src="Form/vendor/select2/select2.min.js"></script>
+<script src="Form/vendor/daterangepicker/moment.min.js"></script>
+<script src="Form/vendor/daterangepicker/daterangepicker.js"></script>
+<script src="Form/vendor/countdowntime/countdowntime.js"></script>
+<script src="Form/vendor/noui/nouislider.min.js"></script>
+<script src="Form/js/main.js"></script>
+<script>
+    $(".js-select2").each(function () {
+        $(this).select2({
+            minimumResultsForSearch: 20,
+            dropdownParent: $(this).next('.dropDownSelect2')
+        });
+
+
+        $(".js-select2").each(function () {
+            $(this).on('select2:close', function (e) {
+                if ($(this).val() == "Please chooses") {
+                    $('.js-show-service').slideUp();
+                }
+                else {
+                    $('.js-show-service').slideUp();
+                    $('.js-show-service').slideDown();
+                }
+            });
+        });
+    });
+</script>
+<script>
+    /*var filterBar = document.getElementById('filter-bar');
+
+    noUiSlider.create(filterBar, {
+        start: [1500, 3900],
+        connect: true,
+        range: {
+            'min': 1500,
+            'max': 7500
+        }
+    });
+    var skipValues = [
+        document.getElementById('value-lower'),
+        document.getElementById('value-upper')
+    ];
+    filterBar.noUiSlider.on('update', function (values, handle) {
+        skipValues[handle].innerHTML = Math.round(values[handle]);
+        $('.contact100-form-range-value input[name="from-value"]').val($('#value-lower').html());
+        $('.contact100-form-range-value input[name="to-value"]').val($('#value-upper').html());
+    });*/
+</script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+    gtag('config', 'UA-23581568-13');
+</script>
+</body>
+</html>
